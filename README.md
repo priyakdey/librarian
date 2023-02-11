@@ -61,3 +61,11 @@ Even if not a production grade project, everything should be Licensed as told my
 and my opinion !
 
 This is [MIT LICENSE](LICENSE)d
+
+
+### Diagrams
+
+![Image](docs/assets/general-architecture.png)
+
+
+
