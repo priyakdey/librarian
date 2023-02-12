@@ -23,7 +23,7 @@ _This is just a repr, as communications will be in form of protobuf_
     "location": "127.0.0.1:8081",
     "auth": "basic",
     "description": "test service",
-    "tags": "tag1, tag2, tag3"
+    "tags": ["tag1", "tag2", "tag3"]
   }
 }
 ```
@@ -51,16 +51,6 @@ _This is just a repr, as communications will be in form of protobuf_
 ```
 
 ### Discovery
-
-- Request Model:
-
-```json
-{
-  "serviceName": "service-a"
-}
-```
-
-- Response Model:
 
 ```json
 {
